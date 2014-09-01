@@ -42,24 +42,16 @@
 		2AF61DF7171644BA0045280A /* WeatherQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61DF6171644BA0045280A /* WeatherQuery.m */; };
 		2AF61DFB171661820045280A /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF61DFA171661820045280A /* libsqlite3.0.dylib */; };
 		2AF61E071716945B0045280A /* ParseDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61E061716945B0045280A /* ParseDate.m */; };
-		2AF61EBC1716A1C80045280A /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EA71716A1C80045280A /* ASIAuthenticationDialog.m */; };
-		2AF61EBD1716A1C80045280A /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EAA1716A1C80045280A /* ASIDataCompressor.m */; };
-		2AF61EBE1716A1C80045280A /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EAC1716A1C80045280A /* ASIDataDecompressor.m */; };
-		2AF61EBF1716A1C80045280A /* ASIDownloadCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EAE1716A1C80045280A /* ASIDownloadCache.m */; };
-		2AF61EC01716A1C80045280A /* ASIFormDataRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EB01716A1C80045280A /* ASIFormDataRequest.m */; };
-		2AF61EC11716A1C80045280A /* ASIHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EB21716A1C80045280A /* ASIHTTPRequest.m */; };
-		2AF61EC21716A1C80045280A /* ASIInputStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EB61716A1C80045280A /* ASIInputStream.m */; };
-		2AF61EC31716A1C80045280A /* ASINetworkQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EB81716A1C80045280A /* ASINetworkQueue.m */; };
-		2AF61EC41716A1C80045280A /* ASINSStringAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EBA1716A1C80045280A /* ASINSStringAdditions.m */; };
-		2AF61ECA1716A3770045280A /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AF61EC91716A3770045280A /* Reachability.m */; };
 		2AF61ECC1716A4910045280A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF61ECB1716A4910045280A /* CFNetwork.framework */; };
 		2AF61ECE1716A4D10045280A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF61ECD1716A4D10045280A /* SystemConfiguration.framework */; };
 		2AF61ED01716A4DF0045280A /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF61ECF1716A4DF0045280A /* MobileCoreServices.framework */; };
 		2AF61ED21716A4FB0045280A /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF61ED11716A4FB0045280A /* libobjc.A.dylib */; };
 		2AF61ED41716A5120045280A /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF61ED31716A5120045280A /* libz.1.2.5.dylib */; };
+		52FBCBE377A0440A901B23A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A53998A62642E8B4D66096 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		299578977AF647C89A177D64 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 		2A1E64BA171E4124005798A3 /* delfult.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delfult.png; sourceTree = "<group>"; };
 		2A1E64BB171E4124005798A3 /* leizyu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leizyu.png; sourceTree = "<group>"; };
 		2A1E64BD171E4124005798A3 /* yu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yu.png; sourceTree = "<group>"; };
@@ -108,35 +100,12 @@
 		2AF61DFA171661820045280A /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
 		2AF61E051716945A0045280A /* ParseDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseDate.h; sourceTree = "<group>"; };
 		2AF61E061716945B0045280A /* ParseDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseDate.m; sourceTree = "<group>"; };
-		2AF61EA61716A1C80045280A /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
-		2AF61EA71716A1C80045280A /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
-		2AF61EA81716A1C80045280A /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
-		2AF61EA91716A1C80045280A /* ASIDataCompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataCompressor.h; sourceTree = "<group>"; };
-		2AF61EAA1716A1C80045280A /* ASIDataCompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataCompressor.m; sourceTree = "<group>"; };
-		2AF61EAB1716A1C80045280A /* ASIDataDecompressor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDataDecompressor.h; sourceTree = "<group>"; };
-		2AF61EAC1716A1C80045280A /* ASIDataDecompressor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDataDecompressor.m; sourceTree = "<group>"; };
-		2AF61EAD1716A1C80045280A /* ASIDownloadCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIDownloadCache.h; sourceTree = "<group>"; };
-		2AF61EAE1716A1C80045280A /* ASIDownloadCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIDownloadCache.m; sourceTree = "<group>"; };
-		2AF61EAF1716A1C80045280A /* ASIFormDataRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIFormDataRequest.h; sourceTree = "<group>"; };
-		2AF61EB01716A1C80045280A /* ASIFormDataRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIFormDataRequest.m; sourceTree = "<group>"; };
-		2AF61EB11716A1C80045280A /* ASIHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequest.h; sourceTree = "<group>"; };
-		2AF61EB21716A1C80045280A /* ASIHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIHTTPRequest.m; sourceTree = "<group>"; };
-		2AF61EB31716A1C80045280A /* ASIHTTPRequestConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestConfig.h; sourceTree = "<group>"; };
-		2AF61EB41716A1C80045280A /* ASIHTTPRequestDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIHTTPRequestDelegate.h; sourceTree = "<group>"; };
-		2AF61EB51716A1C80045280A /* ASIInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIInputStream.h; sourceTree = "<group>"; };
-		2AF61EB61716A1C80045280A /* ASIInputStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIInputStream.m; sourceTree = "<group>"; };
-		2AF61EB71716A1C80045280A /* ASINetworkQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINetworkQueue.h; sourceTree = "<group>"; };
-		2AF61EB81716A1C80045280A /* ASINetworkQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINetworkQueue.m; sourceTree = "<group>"; };
-		2AF61EB91716A1C80045280A /* ASINSStringAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASINSStringAdditions.h; sourceTree = "<group>"; };
-		2AF61EBA1716A1C80045280A /* ASINSStringAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASINSStringAdditions.m; sourceTree = "<group>"; };
-		2AF61EBB1716A1C80045280A /* ASIProgressDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIProgressDelegate.h; sourceTree = "<group>"; };
-		2AF61EC81716A3770045280A /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		2AF61EC91716A3770045280A /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		2AF61ECB1716A4910045280A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		2AF61ECD1716A4D10045280A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		2AF61ECF1716A4DF0045280A /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		2AF61ED11716A4FB0045280A /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = usr/lib/libobjc.A.dylib; sourceTree = SDKROOT; };
 		2AF61ED31716A5120045280A /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
+		A0A53998A62642E8B4D66096 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +124,7 @@
 				2AF61DBF171643F40045280A /* Foundation.framework in Frameworks */,
 				2AF61DC1171643F40045280A /* CoreGraphics.framework in Frameworks */,
 				2AF61DC3171643F40045280A /* CoreData.framework in Frameworks */,
+				52FBCBE377A0440A901B23A9 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,10 +184,10 @@
 		2AF61DB0171643F40045280A = {
 			isa = PBXGroup;
 			children = (
-				2AF61EA51716A15B0045280A /* http */,
 				2AF61DC4171643F40045280A /* WeatherApp */,
 				2AF61DBB171643F40045280A /* Frameworks */,
 				2AF61DBA171643F40045280A /* Products */,
+				299578977AF647C89A177D64 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -243,6 +213,7 @@
 				2AF61DBE171643F40045280A /* Foundation.framework */,
 				2AF61DC0171643F40045280A /* CoreGraphics.framework */,
 				2AF61DC2171643F40045280A /* CoreData.framework */,
+				A0A53998A62642E8B4D66096 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -285,37 +256,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		2AF61EA51716A15B0045280A /* http */ = {
-			isa = PBXGroup;
-			children = (
-				2AF61EC81716A3770045280A /* Reachability.h */,
-				2AF61EC91716A3770045280A /* Reachability.m */,
-				2AF61EA61716A1C80045280A /* ASIAuthenticationDialog.h */,
-				2AF61EA71716A1C80045280A /* ASIAuthenticationDialog.m */,
-				2AF61EA81716A1C80045280A /* ASICacheDelegate.h */,
-				2AF61EA91716A1C80045280A /* ASIDataCompressor.h */,
-				2AF61EAA1716A1C80045280A /* ASIDataCompressor.m */,
-				2AF61EAB1716A1C80045280A /* ASIDataDecompressor.h */,
-				2AF61EAC1716A1C80045280A /* ASIDataDecompressor.m */,
-				2AF61EAD1716A1C80045280A /* ASIDownloadCache.h */,
-				2AF61EAE1716A1C80045280A /* ASIDownloadCache.m */,
-				2AF61EAF1716A1C80045280A /* ASIFormDataRequest.h */,
-				2AF61EB01716A1C80045280A /* ASIFormDataRequest.m */,
-				2AF61EB11716A1C80045280A /* ASIHTTPRequest.h */,
-				2AF61EB21716A1C80045280A /* ASIHTTPRequest.m */,
-				2AF61EB31716A1C80045280A /* ASIHTTPRequestConfig.h */,
-				2AF61EB41716A1C80045280A /* ASIHTTPRequestDelegate.h */,
-				2AF61EB51716A1C80045280A /* ASIInputStream.h */,
-				2AF61EB61716A1C80045280A /* ASIInputStream.m */,
-				2AF61EB71716A1C80045280A /* ASINetworkQueue.h */,
-				2AF61EB81716A1C80045280A /* ASINetworkQueue.m */,
-				2AF61EB91716A1C80045280A /* ASINSStringAdditions.h */,
-				2AF61EBA1716A1C80045280A /* ASINSStringAdditions.m */,
-				2AF61EBB1716A1C80045280A /* ASIProgressDelegate.h */,
-			);
-			name = http;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -323,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2AF61DDB171643F50045280A /* Build configuration list for PBXNativeTarget "WeatherApp" */;
 			buildPhases = (
+				3DCCAC5F28E8477092FCA0A1 /* Check Pods Manifest.lock */,
 				2AF61DB5171643F40045280A /* Sources */,
 				2AF61DB6171643F40045280A /* Frameworks */,
 				2AF61DB7171643F40045280A /* Resources */,
+				7F00AFF250E5424BB755832C /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -389,6 +331,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3DCCAC5F28E8477092FCA0A1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7F00AFF250E5424BB755832C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2AF61DB5171643F40045280A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -399,16 +374,6 @@
 				2AF61DD8171643F50045280A /* WeatherApp.xcdatamodeld in Sources */,
 				2AF61DF7171644BA0045280A /* WeatherQuery.m in Sources */,
 				2AF61E071716945B0045280A /* ParseDate.m in Sources */,
-				2AF61EBC1716A1C80045280A /* ASIAuthenticationDialog.m in Sources */,
-				2AF61EBD1716A1C80045280A /* ASIDataCompressor.m in Sources */,
-				2AF61EBE1716A1C80045280A /* ASIDataDecompressor.m in Sources */,
-				2AF61EBF1716A1C80045280A /* ASIDownloadCache.m in Sources */,
-				2AF61EC01716A1C80045280A /* ASIFormDataRequest.m in Sources */,
-				2AF61EC11716A1C80045280A /* ASIHTTPRequest.m in Sources */,
-				2AF61EC21716A1C80045280A /* ASIInputStream.m in Sources */,
-				2AF61EC31716A1C80045280A /* ASINetworkQueue.m in Sources */,
-				2AF61EC41716A1C80045280A /* ASINSStringAdditions.m in Sources */,
-				2AF61ECA1716A3770045280A /* Reachability.m in Sources */,
 				2A909461171929520087E0AB /* CoreDataAPI.m in Sources */,
 				2A9019EE171BC38D006D777F /* DetailView.m in Sources */,
 				2AAF722A171D146A008EA309 /* WeatherInfo.m in Sources */,
@@ -497,6 +462,7 @@
 		};
 		2AF61DDC171643F50045280A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 299578977AF647C89A177D64 /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -512,6 +478,7 @@
 		};
 		2AF61DDD171643F50045280A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 299578977AF647C89A177D64 /* Pods.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
