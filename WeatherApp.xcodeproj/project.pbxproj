@@ -48,6 +48,7 @@
 		2AF61ED21716A4FB0045280A /* libobjc.A.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF61ED11716A4FB0045280A /* libobjc.A.dylib */; };
 		2AF61ED41716A5120045280A /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AF61ED31716A5120045280A /* libz.1.2.5.dylib */; };
 		52FBCBE377A0440A901B23A9 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0A53998A62642E8B4D66096 /* libPods.a */; };
+		C1AE041219B588D400366577 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1AE041119B588D400366577 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -106,6 +107,7 @@
 		2AF61ED11716A4FB0045280A /* libobjc.A.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libobjc.A.dylib; path = usr/lib/libobjc.A.dylib; sourceTree = SDKROOT; };
 		2AF61ED31716A5120045280A /* libz.1.2.5.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.5.dylib; path = usr/lib/libz.1.2.5.dylib; sourceTree = SDKROOT; };
 		A0A53998A62642E8B4D66096 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1AE041119B588D400366577 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -238,6 +240,7 @@
 				2AA08C76171D4E03007B053A /* StupView.m */,
 				2AA08C78171D4E2F007B053A /* WaringView.h */,
 				2AA08C79171D4E2F007B053A /* WaringView.m */,
+				C1AE041119B588D400366577 /* Images.xcassets */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				2A9FBB09171CF40C00B34FD7 /* yint.png in Resources */,
 				2AA08C6F171D40A9007B053A /* defult1.png in Resources */,
 				2AA08C71171D46E0007B053A /* qingt.png in Resources */,
+				C1AE041219B588D400366577 /* Images.xcassets in Resources */,
 				2A1E64BE171E4124005798A3 /* delfult.png in Resources */,
 				2A1E64BF171E4124005798A3 /* leizyu.png in Resources */,
 				2A1E64C1171E4125005798A3 /* yu.png in Resources */,
@@ -409,8 +413,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -426,8 +430,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "E90F7BE6-B309-4698-8413-5A007C9D7C3D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E90F7BE6-B309-4698-8413-5A007C9D7C3D";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -443,8 +447,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COMPRESS_PNG_FILES = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -453,8 +457,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "E90F7BE6-B309-4698-8413-5A007C9D7C3D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E90F7BE6-B309-4698-8413-5A007C9D7C3D";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -464,14 +468,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 299578977AF647C89A177D64 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeatherApp/WeatherApp-Prefix.pch";
 				INFOPLIST_FILE = "WeatherApp/WeatherApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "E90F7BE6-B309-4698-8413-5A007C9D7C3D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E90F7BE6-B309-4698-8413-5A007C9D7C3D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -480,14 +487,17 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 299578977AF647C89A177D64 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WeatherApp/WeatherApp-Prefix.pch";
 				INFOPLIST_FILE = "WeatherApp/WeatherApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "E90F7BE6-B309-4698-8413-5A007C9D7C3D";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E90F7BE6-B309-4698-8413-5A007C9D7C3D";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
